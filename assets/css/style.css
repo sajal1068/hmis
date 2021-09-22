@@ -377,6 +377,7 @@ ul.footer-links li a{
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 5px 0;
     }
     ul.logo li:nth-of-type(3) {
         float: left;
@@ -444,6 +445,21 @@ ul.footer-links li a{
         border-radius: 5px;
         margin-top: 11px;
     }
+    .logo-box img {
+        height: auto;
+    }
+    .link-title {
+       
+        padding: 5px 20px 0;
+        font-size: 0.71rem;
+        line-height: 1.25;
+    }
+    .ancher-link {
+        font-size: 0.61rem;
+        color: #E54D0C;
+        font-weight: 400;
+    }
+    
 
  }
 
