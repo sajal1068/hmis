@@ -16,7 +16,7 @@
   <body>
     
     <div id="wrapper">
-        <section class="help-desk">
+        <!-- <section class="help-desk">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -24,29 +24,25 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section class="bg-blue h-110 d-flex align-items-center">
 
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-
                         <ul class="logo">
-                          <li><a href="javascript:void();" target="_blank">
-                            <img src="assets/images/hmis.png" class="img-fluid" alt="Health Management Information System">  
-                          </a></li>
-
                           <li><a href="javascript:void();" target="_blank">
                             <img src="assets/images/logo.png" class="img-fluid" alt="Health Management Information System">  
                           </a></li>
-
                           <li><a href="javascript:void();" target="_blank">
                             <img src="assets/images/nrhm-logo.png" class="img-fluid" alt="Health Management Information System">                             
                           </a></li>
-
                           <li><a href="javascript:void();" target="_blank">
                             <img src="assets/images/digital-india.png" class="img-fluid" alt="Health Management Information System">  
+                            <li><a href="javascript:void();" target="_blank">
+                              <img src="assets/images/hmis.png" class="img-fluid" alt="Health Management Information System">  
+                            </a></li>
                           </a></li>
                         </ul> 
                     </div>                   
@@ -54,43 +50,86 @@
             </div>
         </section>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>              
+            </div>
         
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Reports
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Standard Reports</a>                 
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >Publication</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >Contact us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >Training Portal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" >Old HMIS</a>
-              </li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+              <ul class="nav navbar-nav">
+               
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HMIS <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">About Us</a></li>                                  
+                  </ul>
+                </li>
 
-              <li class="nav-item">
-                <a class="login-btn" href="#" >
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Standard Reports</a></li>                    
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                   
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a class="trigger right-caret">Another Dropdown</a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li><a href="#">Level 3</a></li>
+                          <li><a href="#">Level 3</a></li>
+                          <li>
+                            <a class="trigger right-caret">Level 3</a>
+                            <ul class="dropdown-menu sub-menu">
+                              <li><a href="#">Level 4</a></li>
+                              <li><a href="#">Level 4</a></li>
+                              <li><a href="#">Level 4</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right">
+                <li id="login-btn"><a class="login-btn" href="#" class="text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="22.55" height="27.386" viewBox="0 0 22.55 27.386">
                   <g id="Group_513" data-name="Group 513" transform="translate(-24.792 -19.1)">
                     <g id="Group_511" data-name="Group 511" transform="translate(29.066 19.1)">
@@ -100,56 +139,56 @@
                       <path id="Path_788" data-name="Path 788" d="M25.016,61.478a2.966,2.966,0,0,0,2.73,4.095H44.389a2.966,2.966,0,0,0,2.73-4.095C45.049,56.546,40.866,53.2,36.067,53.2S27.041,56.546,25.016,61.478Z" transform="translate(-24.792 -53.2)" fill="#fff"/>
                     </g>
                   </g>
-                </svg>&nbsp; Login</a>
-              </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-          </div>
-        </div>
+                </svg><span class="text-white">&nbsp; Login</span></a></li>
+
+           
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
         </nav>
 
+     
+
         <section class="banner">
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/banner-01.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div> -->
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="assets/images/banner-01.png" class="w-100" alt="banner 01">
+                <div class="carousel-caption">
+                  
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="assets/images/banner-01.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div> -->
+              <div class="item">
+                <img src="assets/images/banner-01.png" class="w-100" alt="banner 02">
+                <div class="carousel-caption">
+                  
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="assets/images/banner-01.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div> -->
-              </div>
+              
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
+
+
+    
         </section>
 
         <main>
@@ -255,6 +294,9 @@
                         <div class="content-text">PHC Grading for all States/ UTs is available for year 2018-19 (upto Sep)</div>
                       </li>
 
+
+                      <span id="text"><!-- read more section -->
+
                       <li>
                         <div class="icon-box">
                           <svg id="Group_517" data-name="Group 517" xmlns="http://www.w3.org/2000/svg" width="20.513" height="19.735" viewBox="0 0 20.513 19.735">
@@ -294,8 +336,13 @@
                         <div class="content-text">RHS 2019-20</div>
                       </li>
 
+                    </span><!-- read more -->
 
                     </ul>
+                    <div class="w-100 text-center">
+                      <button id="toggle" class="btn-rounded">Read More</button>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -619,14 +666,53 @@
           <footer>
             <div class="container">
               <div class="row">
-                <div class="col-12">   
+                <div class="col-sm-12">
+                  <img src="assets/images/hmis-white.png" class="img-responsive center-block">
+                  <div class="hmis-title">
+                    Ministry of Health and Family Welfare,<span></span> 
+Government Of India
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="flexbox">
+
+                <div class="box-section">
+                   <img src="assets/images/dashboard.png" class="img-responsive center-block">
+                   <p>Dashboard</p>
+                </div>
+
+                <div class="box-section">
+                  <img src="assets/images/dashboard.png" class="img-responsive center-block">
+                  <p>key demographic indicators</p>
+                </div>
+
+                <div class="box-section">
+                  <img src="assets/images/dashboard.png" class="img-responsive center-block">
+                  </p>Photo Gallery</p>
+                </div>
+
+                <div class="box-section">
+                  <img src="assets/images/dashboard.png" class="img-responsive center-block">
+                   <p>Training Material</p>
+                </div>
+
+                <div class="box-section">
+                  <img src="assets/images/dashboard.png" class="img-responsive center-block">
+                   <p>IPHS norms</p>
+                </div>
+
+              </div> -->
+              <div class="row">
+                <div class="col-12">                   
                   <ul class="footer-links text-center">
-                    <li><a href="">Nationa Health Programmes</a></li>
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Privacy</a></li>
-                    <li><a href="">Terms</a></li>
-                    <li><a href="">Acknowledgements</a></li>
-                    <li><a href="">Release Notes</a></li>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">key demographic indicators</a></li>
+                    <li><a href="">Photo Gallery</a></li>
+                    <li><a href="">Training Material</a></li>
+                    <li><a href="">IPHS norms</a></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -635,11 +721,12 @@
             <section class="copywrite d-flex align-items-center">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-7">
+                    
                     <p>Software Version: 11.8.1</p>
                   </div>
-                  <div class="col-sm-6 right-side">
-                    <p>Website Last Updated On: September 20th 2021</p>
+                  <div class="col-sm-5 right-side">
+                    <p>Updated On: 20-09-2021</p>
                   </div>
                 </div>
               </div>
@@ -656,9 +743,45 @@
     
     
     
-    <script src="assets/js/jquery.min.js"></script>    
-    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>        
     <script src="assets/js/bootstrap.min.js"></script> 
+   
+    <!-- read more js -->
+    <script>
+      $(document).ready(function() {
+        $("#toggle").click(function() {
+          var elem = $("#toggle").text();
+          if (elem == "Read More") {
+            //Stuff to do when btn is in the read more state
+            $("#toggle").text("Read Less");
+            $("#text").slideDown(1000);
+          } else {
+            //Stuff to do when btn is in the read less state
+            $("#toggle").text("Read More");
+            $("#text").slideUp(1000);
+          }
+        });
+      });
+// dropdown menu
+      $(function(){
+  $(".dropdown-menu > li > a.trigger").on("click",function(e){
+    var current=$(this).next();
+    var grandparent=$(this).parent().parent();
+    if($(this).hasClass('left-caret')||$(this).hasClass('right-caret'))
+      $(this).toggleClass('right-caret left-caret');
+    grandparent.find('.left-caret').not(this).toggleClass('right-caret left-caret');
+    grandparent.find(".sub-menu:visible").not(current).hide();
+    current.toggle();
+    e.stopPropagation();
+  });
+  $(".dropdown-menu > li > a:not(.trigger)").on("click",function(){
+    var root=$(this).closest('.dropdown');
+    root.find('.left-caret').toggleClass('right-caret left-caret');
+    root.find('.sub-menu:visible').hide();
+  });
+});
+  </script>
+    <!-- read more js -->
     
     
   </body>
