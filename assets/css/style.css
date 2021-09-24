@@ -534,6 +534,96 @@ ul.footer-links li a{
     outline:none;
     box-shadow: none;
 }
+
+
+.cms-pages{
+    width:100%;
+    background-color: #0176d5;
+    background-image: url(../images/page-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 200px;
+    display:flex;
+    align-items: center;
+     
+}
+
+.cms-pages .SuperTitle {    
+    font-size: 20px;
+    line-height: 1.55;
+    color: #fff;
+    clear: both;
+    margin:0;
+}
+.cms-pages h1{
+    font-size: 60px;
+    margin-top: 0;
+    font-weight: 700;
+    color:#ffffff;
+    letter-spacing:1px;
+    position: relative;
+}
+.cms-pages h1::after{
+    position: absolute;
+    content: '';
+    bottom: -14px;
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    left: 3px;
+}
+
+.cms-content p{
+    font-size: 1.14em;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+ul.list-arrow{
+    list-style: none;
+
+}
+ul.list-arrow li{
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 20px;
+     font-weight: 400;
+    font-size: 1.14em;
+    
+    line-height: 1.5;
+   
+}
+ul.list-arrow li::after{
+    position: absolute;
+    content: '>';
+    font-size: 16px;
+    color: #e44d2a;
+    top: -9px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    left: 0;    
+}
+ul.list-arrow ul {
+    padding-top: 10px;;
+    
+}
+ul.list-arrow li{
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 1.04em;    
+    line-height: 1.5;
+   
+}
+ul.list-arrow ul li::after{
+    position: absolute;
+    content: '>';
+    color: #489593;
+}
   
 @media (max-width: 575.98px) { 
     .help-desk p {       
@@ -654,6 +744,7 @@ ul.footer-links li a{
  }
 
 
+
 @media (min-width: 576px) and (max-width: 767.98px) {  }
 
 
@@ -667,6 +758,10 @@ ul.footer-links li a{
     .navbar-nav {
         margin-left: -25px;
     }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }
  }
 
 
