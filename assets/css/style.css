@@ -61,8 +61,9 @@ ul.logo li:nth-of-type(3) {
     margin-right: 15px;     
 }
 ul.logo li:nth-of-type(4) {
-    float: right;
-       
+    /* float: right; */
+    float: none;
+    margin-left: 25%;       
 }
 
 ul.logo li img {
@@ -577,7 +578,7 @@ ul.footer-links li a{
     }
     ul.logo li:nth-of-type(4) {
         float: left;
-        margin-right: 0;
+        margin-right: 0;        
     }
     .logo-box li:nth-of-type(2n) {
         border-right: solid #cacaca 0px;
