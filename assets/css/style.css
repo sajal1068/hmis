@@ -1261,6 +1261,10 @@ ul.list-arrow ul li::after{
     .footer-flex li a {       
         font-size: 0.8em;        
     }
+    .doc-file li {
+      width:96%;
+      margin-left: 2%;
+    }
     
 
  }
