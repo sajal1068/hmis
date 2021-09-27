@@ -1117,15 +1117,16 @@ ul.list-arrow ul li::after{
         font-size: 150%;
     }
     ul.logo {        
-        min-height: 106px;
-        padding-top: 16px;
+        min-height: auto;
+        padding: 5px 10px;
         display: flex;        
         justify-content: center;
         align-items: center;
     }
+    
     ul.logo li {
         display: inline-block;
-        width: 24.98%;
+        width: auto;
     }  
     .home-font p {
         font-size: 0.99em;
@@ -1145,13 +1146,27 @@ ul.list-arrow ul li::after{
     ul.logo li:nth-of-type(3) {
         float: left;
         text-align: left;
+        order: 3;   
     }
+    ul.logo li:nth-of-type(2) {
+      
+      order: 4;   
+  }
     ul.logo li:nth-of-type(3) img{
-        height:80px;
+        height:auto;
+        width:90%;
+
     }
+
+    ul.logo li:nth-of-type(1) img{
+      height:auto;
+      width:90%;
+      
+  }
     ul.logo li:nth-of-type(4) {
         float: left;
-        margin-right: 0;        
+        margin-left: 0; 
+        order: 2;       
     }
     .logo-box li:nth-of-type(2n) {
         border-right: solid #cacaca 0px;
@@ -1237,6 +1252,7 @@ ul.list-arrow ul li::after{
     .footer-flex li {
         width: 49.8%;
         margin-bottom: 5px;
+        display:flex;
         
     }
     .footer-flex li a {       
