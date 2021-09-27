@@ -1255,6 +1255,9 @@ ul.list-arrow ul li::after{
         display:flex;
         
     }
+    .footer-flex li a::after {     
+      min-width: 50%;      
+    }
     .footer-flex li a {       
         font-size: 0.8em;        
     }
@@ -1275,6 +1278,9 @@ ul.list-arrow ul li::after{
   }
     .footer-flex li a {       
         font-size: 0.8em;        
+    }
+    .footer-flex li a::after {     
+      min-width: 50%;      
     }
     .whats-new li {
       width: 96%;
